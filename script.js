@@ -19,7 +19,7 @@ refreshtime()
 setInterval(refreshtime, 1000)
 
 
-     var dia = document.querySelector('.dia')
+    var dia = document.querySelector('.dia')
 
     var diahoje = new Date()
 
