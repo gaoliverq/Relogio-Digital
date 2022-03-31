@@ -27,6 +27,19 @@
     border: 10px solid rgb(0, 119, 128);
 }
 
+.dia{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+    border: 6px solid rgb(0, 119, 128);
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
 footer{
     font-size: 2rem;
     margin-top: 10px;

@@ -14,6 +14,17 @@ function timefix(numero){
     }
     return numero
 }
+
 refreshtime()
 setInterval(refreshtime, 1000)
+
+
+     var dia = document.querySelector('.dia')
+
+    var diahoje = new Date()
+
+    var ddata = timefix(diahoje.getDate()) + '.' + timefix((diahoje.getMonth() + 1))  + '.' + timefix(diahoje.getFullYear()) 
+
+    dia.textContent = ddata
+
 
